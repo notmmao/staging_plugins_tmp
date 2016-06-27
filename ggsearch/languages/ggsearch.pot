@@ -1,0 +1,150 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ggsearch\n"
+"POT-Creation-Date: 2015-07-31 13:53+0200\n"
+"PO-Revision-Date: 2015-07-31 13:32+0200\n"
+"Last-Translator: Matthias Guenter\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.3\n"
+"Language-Team: \n"
+
+msgid "Unknown"
+msgstr ""
+
+msgid "No Description."
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Permission"
+msgstr ""
+
+msgid "Limit"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Create Page &quot;{0}&quot;"
+msgstr ""
+
+msgid "Create Post &quot;{0}&quot;"
+msgstr ""
+
+msgid "Search Plugin &quot;{0}&quot;..."
+msgstr ""
+
+msgid "Show all Posts with tag &quot;{0}&quot;..."
+msgstr ""
+
+msgid "Show all Posts with category &quot;{0}&quot;..."
+msgstr ""
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "No Results."
+msgstr ""
+
+msgid "Extras"
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+msgid "Extensions"
+msgstr ""
+
+msgid "API for developers"
+msgstr ""
+
+msgid "Congratulations, you have GG Search enabled!"
+msgstr ""
+
+msgid ""
+"Discover the advantages of global admin search, it helps you all the "
+"elaborate search works."
+msgstr ""
+
+msgid "First, you should config your search to your needs."
+msgstr ""
+
+msgid ""
+"If you want to start searching, click two times the <code>G (G + G)</code> "
+"Key."
+msgstr ""
+
+msgid "Extras describe a quick link to perform specific actions."
+msgstr ""
+
+msgid "A link is generated with the search term."
+msgstr ""
+
+msgid "So you can create, for example, quick and easy posts from search term."
+msgstr ""
+
+msgid ""
+"<code>{0}</code> in the title and the link will be replaced with the search "
+"term."
+msgstr ""
+
+msgid "Extras are sorted by priority."
+msgstr ""
+
+msgid "Groups are sorted by priority."
+msgstr ""
+
+msgid "Click and drag with the mouse the line to reorder the groups."
+msgstr ""
+
+msgid ""
+"Remove the check mark in the line, which should not be incorporated in the "
+"search."
+msgstr ""
+
+msgid "Placeholder"
+msgstr ""
+
+msgid "Extension"
+msgstr ""
+
+msgid ""
+"Allows when clicking the button <code>.</code> (Point) to open the search."
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Limit of Entries"
+msgstr ""
+
+msgid ""
+"Limits the maximum number of search entries per group if it is not defined."
+msgstr ""
+
+msgid "Search in the left admin menu"
+msgstr ""
+
+msgid "Search in Frontend"
+msgstr ""
+
+msgid "Reset to Defaults"
+msgstr ""
+
+msgid "Enabled for"
+msgstr ""

@@ -1,0 +1,257 @@
+.fix {
+    clear: both;
+}
+
+#gg-search {
+    /*display: block !important;
+    opacity: 1 !important;*/
+    position: fixed;
+    top: 32px;
+    width: 400px;
+    right: -432px;
+    bottom: 0px;
+    z-index: 99999;
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #23282D;
+    border-top: 0px;
+    padding: 15px;
+    color: #82878C;
+    opacity: 0;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+}
+#gg-search.show {
+    right: -1px;
+    opacity: 1;
+}
+
+#gg-search > .rows {
+    overflow: hidden;
+    height: calc(100% - 75px);
+}
+
+#gg-search input {
+    display: block;
+    width: 100%;
+    padding: 7px 20px;
+    border: 1px solid rgb(30, 33, 37);
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 1px #3B3E40;
+    background-color: #32373C;
+    color: white;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    font-size: 13px;
+}
+#gg-search input:focus {
+    outline: 0;
+    box-shadow: 0 0 5px rgb(0, 115, 170);
+    border: 1px solid rgb(54, 106, 132);
+}
+#gg-search:after {
+    content: "\f002";
+    background: rgb(0, 115, 170);
+    position: absolute;
+    top: 17px;
+    right: 15px;
+    width: 15px;
+    height: 15px;
+    font-family: FontAwesome;
+    color: white;
+    border-radius: 0px 3px 3px 0px;
+    padding: 7px 20px 10px 20px;
+    font-size: 13px;
+    -webkit-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    border-left: 1px solid #313131;
+}
+
+#gg-search .gg-group {
+    margin-top: 10px;
+    font-size: 9px;
+    font-weight: bold;
+    border-top: 1px solid #23282D;
+    padding: 3px 5px 0px 5px;
+}
+#gg-search .gg-group:first-of-type {
+    border-top: 0px;
+}
+
+#gg-search .gg-item {
+    font-size: 11px;
+    color: #82878C;
+    padding: 3px 5px;
+    border-top: 1px solid #32373C;
+    border-bottom: 1px solid #1E2125;
+    display: block;
+    text-decoration: none;
+}
+#gg-search .gg-item.hover {
+    background-color: rgb(0, 115, 170);
+    border-top: 1px solid rgb(42, 136, 181);
+    border-bottom: 1px solid rgb(30, 136, 187);
+    color: white;
+}
+
+#gg-search .gg-item .gg-hl {
+    background: yellow;
+}
+#gg-search .gg-item.hover .gg-hl {
+    background: black;
+}
+
+#gg-search .gg-condition {
+    display: none;
+}
+#gg-search .gg-condition.show {
+    display: block;
+}
+
+#gg-search .gg-extras {
+    display: none;
+}
+
+#gg-search .fa-spin {
+    display: none;
+    margin: 10px auto;
+    float: right;
+}
+
+#gg-search.loading .fa-spin {
+    display: block;
+}
+
+#wpbody {
+    -webkit-transition: opacity 0.20s ease-in-out, margin 0.2s ease-in-out;
+    -moz-transition: opacity 0.20s ease-in-out, margin 0.2s ease-in-out;
+    -ms-transition: opacity 0.20s ease-in-out, margin 0.2s ease-in-out;
+    -o-transition: opacity 0.20s ease-in-out, margin 0.2s ease-in-out;
+}
+#wpbody.gg-search {
+    opacity: 0.3;
+}
+
+.wp-gg-hide {
+    display: none !important;
+}
+
+
+#gg-search .gg-info {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: url(../image/icon32.png) no-repeat 15px center #32373C;
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid rgb(30, 33, 37);
+}
+
+#gg-search .gg-info a {
+    text-decoration: none;
+}
+
+#gg-search .gg-not-found {
+    display: none;
+    text-align: center;
+    font-style: italic;
+    color: #CCC;
+    padding: 50px 0px;
+}
+
+
+/**
+Pages
+*/
+.gg-search-ghost {
+    background: #CCC;
+}
+.gg-wrapper #the-list tr {
+    cursor: move;
+    cursor: -webkit-grabbing;
+}
+.gg-wrapper .tablenav.top {
+    display: none;
+}
+
+.gg-toolbar-button i {
+    font-family: FontAwesome !important;
+}
+#wp-admin-bar-gg_search {
+    float: right !important;
+}
+#wp-admin-bar-gg_search.active {
+    background: white !important;
+}
+#wp-admin-bar-gg_search.active i {
+    color: rgb(35, 40, 45) !important;
+}
+
+
+/**
+Rewrite, wenn nich vorhanden
+*/
+wp-filter {
+  display: inline-block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 12px 0 25px;
+  padding: 0 20px;
+  width: 100%;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  color: #555;
+  font-size: 13px;
+}
+.wp-filter a {
+  text-decoration: none;
+}
+
+.filter-links, .filter-links li {
+  display: inline-block;
+  margin: 0;
+}
+.filter-links, .filter-links li {
+  display: inline-block;
+  margin: 0;
+}
+
+.filter-links li>a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 15px 0;
+  border-bottom: 4px solid #fff;
+  color: #666;
+  cursor: pointer;
+}
+.filter-links .current {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 4px solid #666;
+  color: #23282d;
+}
+.gg-wrapper .wp-filter {
+    background: url(../image/icon32.png) no-repeat 15px center white;
+    padding-left: 67px;
+}
+
+
+/*
+ * Right Columns in Item
+ */
+ #gg-search .gg-item .right-text {
+     float: right;
+     font-size: 12px;
+     font-weight: light;
+     opacity: 0.8;
+ }

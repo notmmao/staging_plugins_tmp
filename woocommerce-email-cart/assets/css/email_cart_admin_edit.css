@@ -1,0 +1,31 @@
+/* ----- Cart Post-Type ----- */
+
+	/* ----- Cart Edit page ----- */
+	.post-type-stored-carts #minor-publishing-actions {
+		display: none;
+	}
+	.post-type-stored-carts #post-body-content {
+	/* 	display: none; */
+	}
+	.post-type-stored-carts #poststuff .inside {
+		margin: 0;
+		padding: 0;
+	}
+		
+		/* ----- Meta Boxes ----- */
+		
+		.cxecrt-meta-box-details {
+			padding: 12px 0;
+		}
+		.cxecrt-meta-box-details .dashicons{
+			color: #82878c;
+			margin-right: 3px;
+		}
+		.cxecrt-meta-box-details .cxecrt-value{
+			font-weight: bold;
+		}
+		.cxecrt-meta-box-details .cxecrt-value.cxecrt-value-not-retrieved {
+			font-style: italic;
+			color: #b53f3f;
+		}
+

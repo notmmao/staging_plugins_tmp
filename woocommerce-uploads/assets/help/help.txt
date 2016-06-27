@@ -1,0 +1,4 @@
+Documentation|http://wpfortune.com/documentation/plugins/woocommerce-uploads/
+FAQ|https://support.wpfortune.com/hc/en-us/articles/201072531-Frequently-Asked-Questions-FAQ-
+Create an upload set|http://wpfortune.com/documentation/plugins/woocommerce-uploads/#wu-docs-head-15
+Upload files before checkout|http://wpfortune.com/shop/plugins/woocommerce-uploads-add-on/

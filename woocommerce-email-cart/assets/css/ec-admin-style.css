@@ -1,0 +1,176 @@
+
+/* ----- ADMIN FORM ----- */
+
+.compiler_actions{ margin: 12px 0 0; text-align: center; }
+.compiler_actions .edit-cart{ float: left; }
+.compiler_actions .add-cart{ float: right; }
+.compiler_actions.compiler_actions_empty .add-cart{ float:none; }
+
+.compiler_new_actions { text-align: center; color: #8E8E8E; margin: 1em 1em 0; }
+
+.cxecrt_explanation { background: #F1F8FC; padding: 15px 15px; margin: 20px 0; border: 1px solid rgb(220, 230, 239); border-radius: 3px; color: rgb(66, 80, 93); font-size: 14px; font-style: italic; line-height: 1.5em; }
+.cxecrt_explanation strong {}
+
+/* ----- CART POST TYPE EDIT ----- */
+table.cxecrt-admin-table { width: 100%; line-height: 1.5em; color: #444444; }
+table.cxecrt-admin-table tbody tr td { padding: 9px 25px 9px; vertical-align: top; }
+table.cxecrt-admin-table tbody tr td.cxecrt-label { width: 20%; vertical-align: top; border-top: 1px solid #1px solid #EEEEEE; padding-right: 0; }
+table.cxecrt-admin-table tbody tr td .cxecrt-form-row { margin: 0 0 9px; }
+table.cxecrt-admin-table tbody tr td.cxecrt-label label { display: block; font-weight: bold; padding: 0; margin: 7px 0 0; /* color: #333; */  font-size: 14px; }
+
+p.cxecrt-description { display:block; font-size: 13px; padding:0!important; margin: 0 0 9px; font-style: italic; line-height: 1.4em; color: #999999; max-width: 400px; }
+
+table.cxecrt-admin-table .cxecrt_divider_heading { width: 100%; padding: 0; margin: 5px 0 25px -3px; font-size: 17px; font-weight: bold; }
+table.cxecrt-admin-table .cxecrt_divider_heading tr { }
+table.cxecrt-admin-table .cxecrt_divider_heading tr td { padding: 0; }
+table.cxecrt-admin-table .cxecrt_divider_heading tr td:first-child { white-space: nowrap; padding-right: 9px; }
+table.cxecrt-admin-table .cxecrt_divider_heading tr td:last-child { width: 100%; }
+table.cxecrt-admin-table .cxecrt_divider_heading tr td hr { display: block; height: 2px; border: 0; border-bottom: 1px dotted #E0E0E0; }
+
+table.cxecrt-admin-table > tbody > tr:first-child > td,
+table.cxecrt-admin-table > tbody > tr:first-child > td.cxecrt-label { /* padding-top: 30px; */ }
+.cxecrt-form-row select,
+.cxecrt-form-row input[type="text"],
+.cxecrt-form-row textarea { padding: 7px 9px; font-size: 1.1em; height: auto; line-height: 1.5em; line-height: 1.3em; box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.02); background: #FBFBFB; margin: 0; color: #717171;width: 100%; }
+.cxecrt-form-row label {margin-right: 10px;}
+.cxecrt-form-row input[type="radio"] {margin-right: 2px;}
+.cxecrt-form-row input[readonly] { background-color: rgb(247, 247, 247); }
+.cxecrt-form-row input.submit-button { line-height: 30px; height: 31px; padding: 0 10px; }
+.cxecrt-form-row .tips { color: inherit; font-weight: normal; }
+.cxecrt-form-row select{ width: auto; min-width: 150px; }
+.cxecrt-form-row .static-field { display: inline-block; padding: 7px 0; margin: 0 0 0px; font-size: 15px; font-style: italic; font-family: monospace; line-height: 23px; color: #929292; border-bottom: 1px dashed #E0E0E0; }
+
+.cxecrt-wrap { max-width: 950px; padding: 30px 15px 30px 0; }
+.cxecrt-wrap-admin-page { }
+.cxecrt-wrap-settings{}
+.cxecrt-wrap-settings > p {color: #6D6D6D;font-style: italic;font-size: 15px;margin-top: 0;}
+
+.cxecrt-wrap .submit { margin: 25px 0; }
+
+.cxecrt-wrap h2 { font-size: 23px !important;padding: 0 15px 1 0 !important; line-height: 27px !important; color: #464646; clear: none !important; margin: 0;}
+.cxecrt-wrap h2 .dashicons { line-height:inherit; font-size: 20px; position: relative; bottom: -2px; margin: 0 3px; color: #989898; }
+.cxecrt-wrap .cxecrt-admin-links { margin: 35px 0 12px; float: right; }
+.cxecrt-wrap .cxecrt-admin-links .cxecrt-admin-link { color: #717171; text-decoration: none; border-radius: 2px; padding: 4px 9px; transition: .3s; line-height: 19px; margin: 0 0 0 3px; }
+.cxecrt-wrap .cxecrt-admin-links .cxecrt-admin-link .dashicons { font-size:18px; transition: .3s !important; position: relative; top: 2px; line-height: 14px; width: 17px; margin: 0 7px 0 2px; }
+.cxecrt-wrap .cxecrt-admin-links .cxecrt-admin-link:hover { background: #D2D2D2; color: #007DB7; }
+.cart-count-bubble { background: #717171; padding: 0px 5px 1px; border-radius: 100px; font-size: 10px; color: #F1F1F1; margin: 0 -6px 0 3px; position: relative;/* border: 1px solid #B4B4B4; */top: -1px; }
+
+.cxecrt-wrap .cxecrt-back { color: #0074AA; font-size: 13px; float: left;margin: 0 15px 0 0;background: #E0E0E0; text-decoration: none; border-radius: 2px; padding: 4px 9px 3px 6px; transition: .3s; line-height: 19px;}
+.cxecrt-wrap .cxecrt-back .dashicons { margin: 0 0 -6px; bottom: 2px; font-size: 18px; transition: .3s !important; position: relative; line-height: 22px; max-width: 10px; display: inline-block; left: -5px; }
+
+.cxecrt-wrap .cxecrt-back:hover { background: #D2D2D2; color: #007DB7; }
+
+.cxecrt-wrap .tool-box { margin: 0 0 0 12px; }
+.cxecrt-wrap .tool-box h4 { margin: 15px 0 10px; padding: 0; font-size: 12px; font-weight: bold; }
+
+.cxecrt-wrap p.submit { margin: 0; padding: 5px 0 15px; }
+
+	/* BUTTONS */
+	.cxecrt-button .dashicons {font-size: 14px;height: auto;vertical-align: baseline;line-height: normal;position: relative;top: 2px;width: auto;margin: 0;}
+	
+
+/* ADMIN BACK-END */
+
+	/* MINI CART */
+
+	.cxecrt-mini-cart-holder { max-width: 450px; }
+	.cxecrt-mini-cart { background: rgb(255, 255, 255); border: 1px solid #dfdfdf; border-radius: 3px; max-width: 540px; margin: auto;box-shadow: 0 1px 1px rgba(0,0,0,0.035);position: relative;}
+	.cxecrt-mini-cart.cxecrt-mini-cart-empty { text-align: center; padding: 1.5em 1em; background-color: #FBFBFB; }
+	.cxecrt-mini-cart.cxecrt-mini-cart-empty p { margin: 0 0 1em; font-weight: bold; font-size: 14px; color: #585858; }
+	.cxecrt-mini-cart .product_list_widget{ margin: 0; }
+	.cxecrt-mini-cart .product_list_widget li { padding: 1.5em 1.5em; border-bottom: 1px dotted rgba(0,0,0,.1); font-size: 14px; font-weight: bold; text-decoration: none; margin: 0; }
+	.cxecrt-mini-cart .product_list_widget li.empty { border: 0; text-align: center; padding: 1em 1.5em; background: #FBFBFB; }
+	.cxecrt-mini-cart .product_list_widget li::after { clear: both; content: ""; display: block; }
+	.cxecrt-mini-cart .product_list_widget li a { text-decoration: none; padding: 0 0 1px 0; }
+	.cxecrt-mini-cart .product_list_widget li dl,
+	.cxecrt-mini-cart .product_list_widget li dt,
+	.cxecrt-mini-cart .product_list_widget li dd,
+	.cxecrt-mini-cart .product_list_widget li p { padding: 0; margin: 0; display: block; }
+	.cxecrt-mini-cart .product_list_widget li dt { display: inline-block; }
+	.cxecrt-mini-cart .product_list_widget li dd { display: inline-block; font-weight: normal; margin-right: 4px; }
+	
+	.cxecrt-mini-cart .product_list_widget li .quantity { font-size: 13px; font-weight: normal; display: block; }
+	.cxecrt-mini-cart .product_list_widget li img { float: right; max-width: 60px; height: auto;/* border: 1px solid #E6E6E6; */ }
+	.cxecrt-mini-cart .product_list_widget a:hover { color: #96588a; }
+	.cxecrt-mini-cart .product_list_widget li .remove{ display: none; }
+	.cxecrt-mini-cart .buttons { display: none; }
+	.cxecrt-mini-cart .total { padding: 1em 1.5em; margin: 0; text-align: center;background: rgb(251, 251, 251); font-size: 13px; border-radius: 0 0 3px 3px;}
+
+	.cxecrt-mini-cart .cart-edit-button { position: absolute;bottom: 9px;left: 9px;}
+
+	
+	/* OVER-WRITE CART PANEL */
+	.cxecrt-overwrite-cart-holder {
+	padding: 15px 0;
+	position: fixed;
+	visibility: hidden;
+}
+	.cxecrt-overwrite-cart-holder .cxecrt-description {
+		margin-bottom: 12px;
+	}
+	.cxecrt-overwrite-cart-holder .cxecrt-overwrite-actions {
+		margin-bottom: 9px;
+	}
+	.cxecrt-overwrite-cart-holder .cxecrt-mini-cart-holder {
+	}
+
+
+
+/* ----- CART POST-TYPE ----- */
+	
+	/* ----- INDEX PAGE ----- */
+	#cart_retrieved {
+	width: 37%;
+}
+	#cart_name {
+	width: 22%;
+}
+	#cart_author {
+	width: 20%;
+}
+	#cart_sent {
+	width: 17%;
+}
+
+	.cart_sent .dashicons,
+	.cart_retrieved .dashicons{ color: #82878c; font-size: 15px; line-height: 19px;margin: 0;}
+	#cart_name em { color: #B8B8B8; }
+	.cxecrt-elipses {font-weight: normal; position: relative;line-height: 13px;top: -1px;font-size: 13px;}
+	.cxecrt-elipses:after { content:"\e010"; font-family: WooCommerce; }
+	th#actions { width: 39px; }
+	td.column-actions {  text-align: right; padding-right: 13px;}
+	.column-actions .button {  height: 24px; padding: 0 8px;margin: -2px 0;}
+
+	.cxecrt_index_retrieval_count {background: #82878C;box-sizing: border-box;display: inline-block;min-width: 19px;border-radius: 100px;color: #F9F9F9;padding: 0 4px;font-size: 11px;line-height: 16px;font-weight: bold;text-align: center;margin: 0 2px 0 0;}
+	
+	/* HIDE ADD BUTTON */
+	.post-type-stored-carts .page-title-action {  display: none; }
+		
+		/* ----- NOTICE ----- */
+		.cxecrt-admin-notice {}
+		.cxecrt-admin-notice p:first-child {max-width: 1020px; font-style: italic;}
+		.cxecrt-admin-notice .cxecrt-button { margin-bottom: 6px;vertical-align: baseline;}
+	
+
+	/* ----- EDIT PAGE ----- */
+	
+	.post-type-stored-carts #minor-publishing-actions { display: none; }
+	.post-type-stored-carts #post-body-content { /* display: none; */ }
+	.post-type-stored-carts #poststuff .inside { margin: 0; padding: 0; }
+	
+		/* ----- META BOXES ----- */
+		
+		.cxecrt-meta-box-details { padding: 12px 0; }
+		.cxecrt-meta-box-details .dashicons { color: #82878c; margin-right: 3px; }
+		.cxecrt-meta-box-details .cxecrt-value { font-weight: bold; }
+		.cxecrt-meta-box-details .cxecrt-value.cxecrt-value-not-retrieved { font-style: italic; color: #b53f3f; }
+	
+
+/* ----- SETTINGS PAGE ----- */
+
+.cxecrt-wrap-settings h3 {padding: 25px 0 12px 0;margin: 25px 0 0;border-top: 1px solid rgba(0, 0, 0, 0.1);/* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */font-size: 16px;font-style: normal;}
+.cxecrt-wrap-settings table.form-table .description,
+.cxecrt-wrap-settings table.form-table td.forminp-textarea p { display: block; margin-top: 6px; margin-bottom: 6px; color: #6D6D6D; font-style: italic; font-size: 14px; }
+.cxecrt-wrap-settings table.form-table .forminp-checkbox .description{ margin-top: 0; }
+.cxecrt-wrap-settings table.form-table td.forminp-textarea p { margin-bottom: 12px; }
+.cxecrt-wrap-settings table.form-table td.forminp-textarea textarea { width: 100%; }

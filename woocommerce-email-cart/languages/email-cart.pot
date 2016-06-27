@@ -1,0 +1,532 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Save & Share Cart\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Fri Mar 18 2016 16:34:00 GMT+0200 (South Africa Standard "
+"Time)\n"
+"POT-Revision-Date: Fri Mar 18 2016 16:34:17 GMT+0200 (South Africa Standard "
+"Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "WooCommerce Save & Share Cart"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Previously know as WooCommerce Email Cart *** - Empower anyone using your "
+"store to Save & Share their Cart."
+msgstr ""
+
+#. Author of the plugin
+msgid "cxThemes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://codecanyon.net/user/cxThemes/portfolio"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://codecanyon.net/item/email-cart-for-woocommerce/5568059"
+msgstr ""
+
+#: ../email-cart.php:184
+msgid ""
+"All these carts are real live sent carts so rather dont delete them. You can "
+"set "
+msgstr ""
+
+#: ../email-cart.php:267 ../email-cart.php:268
+msgid "Click here to view your cart."
+msgstr ""
+
+#: ../email-cart.php:440
+msgid "GO TO COLLECTION"
+msgstr ""
+
+#: ../email-cart.php:464
+msgid "Product"
+msgstr ""
+
+#: ../email-cart.php:465
+msgid "Price"
+msgstr ""
+
+#: ../email-cart.php:466
+msgid "Quantity"
+msgstr ""
+
+#: ../email-cart.php:467
+msgid "Total"
+msgstr ""
+
+#: ../email-cart.php:489
+msgid "Remove this item"
+msgstr ""
+
+#: ../email-cart.php:526
+msgid "Available on backorder"
+msgstr ""
+
+#: ../email-cart.php:617
+msgid "Here's the link to your cart collection if the buttons don't work "
+msgstr ""
+
+#: ../email-cart.php:673
+msgid ""
+"We're sorry but it seems the cart you're looking for no longer exists. "
+"Please feel free to browse our store while you're here."
+msgstr ""
+
+#: ../email-cart.php:690 ../admin/cart_index_interface.php:147
+msgid "Cart Retrieved"
+msgstr ""
+
+#: ../email-cart.php:1005
+msgid ""
+"Are you sure you want to remove the selected items? If you have previously "
+"reduced this item's stock, or this order was submitted by a customer, you "
+"will need to manually restore the item's stock."
+msgstr ""
+
+#: ../email-cart.php:1014
+msgid "This will overwrite this saved cart. Are you sure you want to proceed?"
+msgstr ""
+
+#: ../email-cart.php:1015
+msgid ""
+"Doing this will mean the saved cart is no longer be retrievable by whoever "
+"saved it. Are you sure you want to proceed?"
+msgstr ""
+
+#: ../email-cart.php:1102 ../email-cart.php:1127 ../email-cart.php:1209 ..
+#: /admin/cart_index_interface.php:456 ../includes/class-ec-settings.php:46 ..
+#: /includes/class-ec-settings.php:47 ../includes/class-ec-settings.php:75
+msgid "Save & Share Cart"
+msgstr ""
+
+#: ../email-cart.php:1132
+msgid ""
+"Your Shopping Cart will be saved and you'll be given a link. You, or anyone "
+"with the link, can use it to retrieve your Cart at any time."
+msgstr ""
+
+#: ../email-cart.php:1152
+msgid "Cart Name (optional)"
+msgstr ""
+
+#: ../email-cart.php:1153
+msgid "Name Your Cart"
+msgstr ""
+
+#: ../email-cart.php:1154
+msgid ""
+"Naming your Cart is a way to permanently store the cart - because custom "
+"named carts don't get automatically deleted when they get old (if that "
+"setting is active). Naming your cart something like 'Summer Hotlist' will "
+"mean you can easily find it when browsing your stored carts, then quickly "
+"link to it from a Advert or send the link to a customer in an Email. *Only "
+"users logged in with Store Manager privileges (and above) will see this "
+"option to name their stored carts."
+msgstr ""
+
+#: ../email-cart.php:1160
+msgid "Save Cart & Generate Link"
+msgstr ""
+
+#: ../email-cart.php:1169
+msgid "http://&nbsp; (click below to save cart & generate your link)"
+msgstr ""
+
+#: ../email-cart.php:1170
+msgid ""
+"Copy this cart link and save it, or send it to a friend. Anyone who clicks "
+"on the link can retrieve it."
+msgstr ""
+
+#: ../email-cart.php:1175
+msgid "Send Cart in an Email"
+msgstr ""
+
+#: ../email-cart.php:1178
+msgid "Done! close"
+msgstr ""
+
+#: ../email-cart.php:1186
+msgid "Empty cart. Please add products before saving :)"
+msgstr ""
+
+#: ../email-cart.php:1207
+msgid "Back"
+msgstr ""
+
+#: ../email-cart.php:1214
+msgid ""
+"Your Shopping Cart will be saved with Product pictures and information, and "
+"Cart Totals. Then send it to yourself, or a friend, with a link to retrieve "
+"it at any time."
+msgstr ""
+
+#: ../email-cart.php:1235
+msgid "To email address(es), comma separated"
+msgstr ""
+
+#: ../email-cart.php:1236
+msgid "To"
+msgstr ""
+
+#: ../email-cart.php:1267
+msgid "Your email address"
+msgstr ""
+
+#: ../email-cart.php:1268
+msgid "From"
+msgstr ""
+
+#: ../email-cart.php:1272
+msgid "Your Name"
+msgstr ""
+
+#: ../email-cart.php:1273
+msgid "From Name"
+msgstr ""
+
+#: ../email-cart.php:1288
+msgid "Your subject"
+msgstr ""
+
+#: ../email-cart.php:1289 ../admin/cart_edit_interface.php:410 ../includes/class-
+#: ec-settings.php:161 ../includes/class-ec-settings.php:195
+msgid "Subject"
+msgstr ""
+
+#: ../email-cart.php:1297 ../admin/cart_edit_interface.php:81 ..
+#: /admin/cart_edit_interface.php:244
+msgid "Cart"
+msgstr ""
+
+#: ../email-cart.php:1298
+msgid "Checkout"
+msgstr ""
+
+#: ../email-cart.php:1324
+msgid "Send Cart Email"
+msgstr ""
+
+#: ../email-cart.php:1336
+msgid "Your cart email sent successfully :)"
+msgstr ""
+
+#: ../email-cart.php:1513
+#, php-format
+msgid ""
+"%sSave & Share Cart for WooCommerce needs WooCommerce%s %sWooCommerce%s must "
+"be active for Save & Share Cart to work. Please install & activate "
+"WooCommerce."
+msgstr ""
+
+#: ../email-cart.php:1530
+#, php-format
+msgid ""
+"%sSave & Share Cart for WooCommerce is inactive%s This version of Save & "
+"Share Cart requires WooCommerce %s or newer. For more information about our "
+"WooCommerce version support %sclick here%s."
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:101
+msgid "Activity"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:123 ../admin/cart_edit_interface.php:134 ..
+#: /admin/cart_index_interface.php:235 ../admin/cart_index_interface.php:259
+msgid "@"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:143
+msgid "Created by:"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:149
+msgid "Created:"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:155
+msgid "Retrieve Count:"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:158
+msgid "Not Yet Retrieved..."
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:170
+msgid "Last Retrieved:"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:228
+msgid "Cart URL"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:235
+msgid ""
+"You can copy this cart and send it to anyone. Anyone who clicks on it can "
+"retrieve it."
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:266 ../admin/cart_edit_interface.php:272 ..
+#: /admin/cart_edit_interface.php:330
+msgid "Edit Cart"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:273 ../admin/cart_edit_interface.php:281 ..
+#: /admin/cart_edit_interface.php:331 ../admin/cart_edit_interface.php:339
+msgid "Add Products"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:280 ../admin/cart_edit_interface.php:338
+msgid "Your cart is empty."
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:296
+#, php-format
+msgid ""
+"This is what's currently in your cart. Add products to it - the standard way "
+"through your <a href=\"%s\">shop</a> - then return here to send it."
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:307
+msgid ""
+"The way you change the above saved cart is by overwriting it with your "
+"existing WooCommerce cart seen below. Modify your existing cart and when "
+"you're ready return here and click to overwrite the Saved Cart above."
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:312
+msgid "Overwrite Cart above with your existing Cart Below"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:316
+msgid "Cancel"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:354
+msgid "Redirect To"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:396
+msgid "To Address(es)"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:402
+msgid "Who would you like to send this cart to?<br>Comma separated for multiple"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:423 ../includes/class-ec-settings.php:171 ..
+#: /includes/class-ec-settings.php:205
+msgid "Message"
+msgstr ""
+
+#: ../admin/cart_edit_interface.php:429
+msgid ""
+"The message will appear above the cart in your email. [shortcodes] will be "
+"replaced will relevant content."
+msgstr ""
+
+#: ../admin/cart_index_interface.php:146
+msgid "Cart Created"
+msgstr ""
+
+#: ../admin/cart_index_interface.php:148
+msgid "Author"
+msgstr ""
+
+#: ../admin/cart_index_interface.php:149
+msgid "Name <em>(optional)</em>"
+msgstr ""
+
+#: ../admin/cart_index_interface.php:150
+msgid "&nbsp;"
+msgstr ""
+
+#: ../admin/cart_index_interface.php:266
+msgid "retrievals, last time"
+msgstr ""
+
+#: ../admin/cart_index_interface.php:318
+msgid "No Products"
+msgstr ""
+
+#: ../admin/cart_index_interface.php:328
+msgid "View"
+msgstr ""
+
+#: ../admin/cart_index_interface.php:350
+msgid "From:"
+msgstr ""
+
+#: ../admin/cart_index_interface.php:350
+msgid "To:"
+msgstr ""
+
+#: ../admin/cart_index_interface.php:453
+msgid ""
+"<strong>Save & Share Cart</strong> allows you and your customers to send a "
+"link to a pre-stocked cart to any email address. Admins can send the email "
+"from here, and your customers send using the Save & Share Cart button on "
+"your shop's cart page. The list below shows Sent Cart activity."
+msgstr ""
+
+#: ../admin/cart_index_interface.php:460 ../includes/class-ec-settings.php:75
+msgid "Settings"
+msgstr ""
+
+#: ../includes/class-ec-install.php:19
+msgid "Clear Carts"
+msgstr ""
+
+#: ../includes/class-ec-install.php:56
+msgid "Cart Data Cleared"
+msgstr ""
+
+#: ../includes/class-ec-install.php:64
+msgid "Timeout occured, please try again."
+msgstr ""
+
+#: ../includes/class-ec-settings.php:30
+msgid "Save & Share Cart Settings"
+msgstr ""
+
+#: ../includes/class-ec-settings.php:83
+msgid "Save changes"
+msgstr ""
+
+#: ../includes/class-ec-settings.php:109
+msgid "General Settings"
+msgstr ""
+
+#: ../includes/class-ec-settings.php:115
+msgid "Show Button on Cart Page"
+msgstr ""
+
+#: ../includes/class-ec-settings.php:117
+msgid ""
+"If you don't like the look of our button you can choose not to show it, then "
+"create your own button linking to your share cart page like this http://....."
+"./cart/#email-cart (#email-cart is essential)."
+msgstr ""
+
+#: ../includes/class-ec-settings.php:130
+msgid "Automatically Delete Old Carts"
+msgstr ""
+
+#: ../includes/class-ec-settings.php:133
+msgid ""
+"Saving a large number of carts can lead to a large database. Automatically "
+"clearing the cart list will keep this under control. Check this on to set "
+"number of days."
+msgstr ""
+
+#: ../includes/class-ec-settings.php:139
+msgid "Automatically delete carts older than (days)"
+msgstr ""
+
+#: ../includes/class-ec-settings.php:141
+msgid ""
+"Any cart that becomes older than the number of days specified will be "
+"automatically deleted. In the off chance that a customer attempts to "
+"retrieved an old cart a friendly notice will be displayed."
+msgstr ""
+
+#: ../includes/class-ec-settings.php:154
+msgid "Email Settings (for Customers and Guests)"
+msgstr ""
+
+#: ../includes/class-ec-settings.php:155
+msgid ""
+"Customers will be presented with a form where they can personalize the 'To "
+"Address', 'From Address', 'From Name', 'Subject' and 'Message' for the email."
+msgstr ""
+
+#: ../includes/class-ec-settings.php:162
+msgid ""
+"This is the pre-populated text in the 'Subject' field for Customers emailing "
+"their cart. They can then personlize it before sending."
+msgstr ""
+
+#: ../includes/class-ec-settings.php:164 ../includes/class-ec-settings.php:165
+#, php-format
+msgid "Shopping Cart sent to you via %s"
+msgstr ""
+
+#: ../includes/class-ec-settings.php:172
+msgid ""
+"This is the pre-populated text in the 'Message' field for Customers emailing "
+"their cart. They can then personlize it before sending. The Email message "
+"will be styled using the WooCommerce Email Template and the cart added - "
+"with it's product pictures and totals."
+msgstr ""
+
+#: ../includes/class-ec-settings.php:174 ../includes/class-ec-settings.php:175
+#, php-format
+msgid "Have a look at this Shopping Cart sent by a friend via %s"
+msgstr ""
+
+#: ../includes/class-ec-settings.php:189
+msgid "Email Settings (for Administrators and Shop Managers)"
+msgstr ""
+
+#: ../includes/class-ec-settings.php:190
+msgid ""
+"Shop Managers will be presented with the same form as above - the difference "
+"is the 'From Address' and 'From Name' are pre-populated with the Shop\\'s "
+"Email and Name, which can aslo be personalized before sending."
+msgstr ""
+
+#: ../includes/class-ec-settings.php:196
+msgid ""
+"This is the pre-populated text in the 'Subject' field for Shop Managers "
+"emailing their cart. They can then personlize it before sending."
+msgstr ""
+
+#: ../includes/class-ec-settings.php:197 ../includes/class-ec-settings.php:198
+#, php-format
+msgid "Shopping Cart sent to you by %s"
+msgstr ""
+
+#: ../includes/class-ec-settings.php:206
+msgid ""
+"This is the pre-populated text in the 'Message' field for Shop Managers "
+"emailing their cart. They can then personlize it before sending. The Email "
+"message will be styled using the WooCommerce Email Template and the cart "
+"added - with it's product pictures and totals."
+msgstr ""
+
+#: ../includes/class-ec-settings.php:207 ../includes/class-ec-settings.php:208
+#, php-format
+msgid "Have a look at this Shopping Cart from %s"
+msgstr ""
+
+#: ../includes/class-ec-settings.php:233
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: ../models/Saved_Cart.php:178
+msgid "Guest"
+msgstr ""

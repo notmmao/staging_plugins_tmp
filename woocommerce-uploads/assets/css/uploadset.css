@@ -1,0 +1,83 @@
+/* Single upload box */
+
+.wpf-umf-upload-box {
+  background: #F7F7F7;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #dedede;
+  cursor: move;
+}
+
+.wpf-umf-upload-box .wpf-umf-upload-row {
+  padding: 6px 0;
+}
+
+.wpf-umf-upload-box .main-label {
+  float: left;
+  width: 200px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.wpf-umf-upload-box .regular-input {
+  width: 300px;
+}
+
+.wpf-umf-upload-box .wpf-umf-upload-field {
+  float: left;
+}
+
+.wpf-umf-upload-box .wpf-umf-upload-row .description {
+  width: 250px;
+  font-size: 11px;
+  font-style: italic;
+  background: #eee;
+  padding: 3px;
+  margin-top: 2px;
+}
+
+.wpf-umf-upload-box .wpf-umf-upload-box-advanced,
+.wpf-umf-upload-box .wpf-umf-upload-box-delete {
+  text-align: center;
+  float: right;
+}
+
+.wpf-umf-upload-box .wpf-umf-upload-box-advanced {
+  margin-right: 5px;
+}
+
+.wpf-umf-upload-box .wpf-umf-upload-box-advanced .dashicons {
+  margin-top: 2px;
+}
+
+/* Custom button colors */
+
+.wp-core-ui .button-green {
+  background: #2EAD58;
+  border-color: #1E713A;
+  color: #FFF;
+  -webkit-box-shadow: inset 0 1px 0 rgba(78, 204, 99,.5),0 1px 0 rgba(0,0,0,.15);
+  box-shadow: inset 0 1px 0 rgba(78, 204, 99,.5),0 1px 0 rgba(0,0,0,.15);
+}
+
+.wp-core-ui .button-green:hover, .wp-core-ui .button-green:focus {
+  background: #27914A;
+  border-color: #1E713A;
+  color: #FFF;
+}
+
+.wp-core-ui .button-red {
+  background: #AD1A2D;
+  border-color: #851423;
+  color: #FFF;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 163, 163, .5),0 1px 0 rgba(0,0,0,.15);
+  box-shadow: inset 0 1px 0 rgba(255, 163, 163, .5),0 1px 0 rgba(0,0,0,.15);
+}
+
+.wp-core-ui .button-red:hover, .wp-core-ui .button-red:focus {
+  background: #E32B3D;
+  border-color: #70001B;
+  color: #FFF;
+}
+
+

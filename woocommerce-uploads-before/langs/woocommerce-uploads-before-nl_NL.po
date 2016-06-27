@@ -1,0 +1,269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Uploads Before Add-On\n"
+"POT-Creation-Date: 2014-12-24 11:16+0100\n"
+"PO-Revision-Date: 2014-12-24 11:19+0100\n"
+"Last-Translator: WP Fortune <info@wpfortune.com>\n"
+"Language-Team: WP Fortune <info@wpfortune.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;__;_e;_x;_n:1,2;_n_noop:1,2;_nx:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/class-wc-plugin-update.php:370
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account %s."
+msgstr ""
+"De licentie voor %s is verlopen. Je kunt een nieuwe licentie kopen of je "
+"huidige licentie heractiveren via je account %s."
+
+#: ../classes/class-wc-plugin-update.php:370
+#: ../classes/class-wc-plugin-update.php:385
+#: ../classes/class-wc-plugin-update.php:400
+#: ../classes/class-wc-plugin-update.php:415
+#: ../classes/class-wc-plugin-update.php:430
+#: ../classes/class-wc-plugin-update.php:445
+#: ../classes/class-wc-plugin-update.php:460
+#: ../classes/class-wc-plugin-update.php:475
+#: ../classes/class-wc-plugin-update.php:490
+#: ../classes/class-wc-plugin-update.php:505
+#: ../classes/class-wc-plugin-update.php:535
+msgid "dashboard"
+msgstr "dashboard"
+
+#: ../classes/class-wc-plugin-update.php:385
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account %s."
+msgstr ""
+"Je abonnement voor %s staat op on-hold. Je kunt je abonnement heractiveren "
+"via je account %s"
+
+#: ../classes/class-wc-plugin-update.php:400
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account %s. A new license key will be emailed to you after your "
+"order has been completed."
+msgstr ""
+"Het abonnement voor %s is geannuleerd. Je kunt je abonnement vernieuwen via "
+"je je account %s. Er zal een nieuwe licentie code ge-emaild worden nadat je "
+"bestelling is afgerond."
+
+#: ../classes/class-wc-plugin-update.php:415
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account %s."
+msgstr ""
+"Het abonnement voor %s is verlopen. Je kunt je abonnement heractiveren via "
+"je je account %s."
+
+#: ../classes/class-wc-plugin-update.php:430
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account %s."
+msgstr ""
+"Het abonnement voor %s is gestopt. Je kunt je abonnement heractiveren via je "
+"je account %s."
+
+#: ../classes/class-wc-plugin-update.php:445
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account %s."
+msgstr ""
+"Het abonnement voor %s is nog in afwachting. Je kunt de status van het "
+"abonnement bekijken via je je account %s."
+
+#: ../classes/class-wc-plugin-update.php:460
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account %s."
+msgstr ""
+"Het abonnement %s is verplaatst naar de prullenbak en zal binnenkort "
+"definitief vervallen. Je kunt een nieuw abonnement aanschaffen via je "
+"account %s."
+
+#: ../classes/class-wc-plugin-update.php:475
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account %s."
+msgstr ""
+"Er kon geen abonnement gevonden worden voor %s. Je kunt een abonnement kopen "
+"via je je account %s."
+
+#: ../classes/class-wc-plugin-update.php:490
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account %s."
+msgstr ""
+"Er kon geen licentie code gevonden worden voor %s. Wellicht ben je vergeten "
+"een licentie code in te stellen voor %s of de licentie code is gedeactiveerd "
+"in je account. Je kunt je licentie code heractiveren of een nieuwe kopen via "
+"je je account %s."
+
+#: ../classes/class-wc-plugin-update.php:505
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account %s."
+msgstr ""
+"Je hebt geen download rechten voor %s. Waarschijnlijk je abonnement of "
+"licentie code verlopen. Je kunt een nieuwe licentie code aanschaffen of je "
+"licentie code heractiveren via je je account %s."
+
+#: ../classes/class-wc-plugin-update.php:520
+#, php-format
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+"%s is niet geactiveerd. Ga naar de instellingen pagina and voer je licentie "
+"code en e-mailadres in om %s te activeren."
+
+#: ../classes/class-wc-plugin-update.php:535
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account %s."
+msgstr ""
+"Je abonnement voor %s is gewijzigd. We verzoeken je de nieuwe licentie code "
+"in te stellen op de instellingen pagina. De licentie code heb je  in een e-"
+"mail ontvangen. Als dit niet het geval is kun je je licentie code opvragen "
+"via je je account %s."
+
+#: ../classes/class-wpf-uploads-before.php:403
+#, php-format
+msgid ""
+"WooCommerce Uploads and/or WooCommerce is not active. Please activate "
+"WooCommerce and WooCommerce Uploads before using %s."
+msgstr ""
+"WooCommerce Uploads en/of WooCommerce is/zijn niet actief. Activeer a.u.b. "
+"WooCommerce en WooCommerce Uploads voordat je gebruik maakt van %s."
+
+#: ../classes/class-wpf-uploads-before.php:580
+msgid "Add to cart & upload files"
+msgstr "Voeg toe aan winkelwagen en upload bestanden"
+
+#: ../classes/class-wpf-uploads-before.php:609
+#: ../pages/admin/extra-settings.php:15
+msgid "You can always add, change or remove your uploads after checkout."
+msgstr ""
+"Je kunt na afrekenen altijd nog bestanden toevoegen, aanpassen of "
+"verwijderen."
+
+#: ../classes/class-wpf-uploads-before.php:644
+msgid "Upload / View files"
+msgstr "Upload / Bekijk bestanden"
+
+#: ../classes/class-wpfortune-base.php:93
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../classes/class-wpfortune-base.php:94
+msgid "Docs"
+msgstr "Documentatie"
+
+#: ../classes/class-wpfortune-base.php:95
+msgid "Support"
+msgstr "Support"
+
+#: ../pages/admin/extra-settings.php:3
+msgid "Uploads before checkout"
+msgstr "Uploads voor afrekenen"
+
+#: ../pages/admin/extra-settings.php:9
+msgid "Cart message:"
+msgstr "Winkelwagen bericht:"
+
+#: ../pages/admin/extra-settings.php:17
+msgid ""
+"Please enter the text you want to display on the cart page. If empty, the "
+"default message will be shown."
+msgstr ""
+
+#: ../pages/admin/extra-settings.php:27
+msgid "Uploads required:"
+msgstr "Uploads verplicht:"
+
+#: ../pages/admin/extra-settings.php:33 ../pages/admin/extra-settings.php:53
+#: ../pages/admin/extra-settings.php:71
+msgid "Enable"
+msgstr "Activeren"
+
+#: ../pages/admin/extra-settings.php:35
+msgid "Uploads are required before the customer can proceed to checkout"
+msgstr "Uploads zijn verplicht voordat de klant kan afrekenen"
+
+#: ../pages/admin/extra-settings.php:47
+msgid "Strict mode:"
+msgstr "Strenge modus:"
+
+#: ../pages/admin/extra-settings.php:55
+msgid ""
+"If you enable strict mode, customers must exactly upload the amount of files "
+"corresponding the 'Number of uploads' for a specific upload box."
+msgstr ""
+"Als je de strenge modus activeert, dan moeten klanten exact het aantal "
+"bestanden uploaden dat is aangegeven bij 'Aantal uploads' bij een upload box."
+
+#: ../pages/admin/extra-settings.php:65
+msgid "Mutiple ordered items:"
+msgstr "Meerdere bestelde items:"
+
+#: ../pages/admin/extra-settings.php:73
+msgid ""
+"If a customer orders multiple items of the same product, the customer must "
+"upload files for each item before they can proceed to checkout (the 'Upload "
+"procedure' setting must be set to 'Multiple uploads for each product')."
+msgstr ""
+"Als een klant meerdere items van eenzelfde product bestelt, dan moet diegene "
+"voor elk item bestanden uploaden voordat ze kunnen afrekenen (de 'Upload "
+"procedure' instelling moet hiervoor staan op 'Meerdere uploads voor elk "
+"product')."
+
+#: ../pages/admin/extra-settings.php:83
+msgid "Hide upload button in cart:"
+msgstr "Verberg upload knop in winkelwagen:"
+
+#: ../pages/admin/extra-settings.php:89
+msgid "Hide"
+msgstr "Verberg"
+
+#: ../pages/admin/extra-settings.php:91
+msgid ""
+"Check this option if you want to hide the upload button for each product in "
+"the cart"
+msgstr ""
+
+#: ../pages/admin/extra-settings.php:105
+msgid "Save settings"
+msgstr "Instellingen opslaan"
+
+#: ../pages/frontend/upload-boxes-header.php:13
+msgid "Items in cart:"
+msgstr "Artikelen in winkelwagen:"
+
+#: ../pages/frontend/uploads-needed.php:7
+msgid "The following products need uploads:"
+msgstr "De volgende bestanden hebben uploads nodig:"
+
+#: ../pages/frontend/uploads-needed.php:17
+msgid "Please upload your files before proceeding to checkout"
+msgstr "Upload a.u.b. je bestanden voordat je afrekent"

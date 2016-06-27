@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ggsearch\n"
+"POT-Creation-Date: 2015-07-30 16:57-0400\n"
+"PO-Revision-Date: 2015-07-31 14:37+0200\n"
+"Last-Translator: Matthias Guenter\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.3\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+
+msgid "Unknown"
+msgstr "Unbekannt"
+
+msgid "No Description."
+msgstr "Keine Beschreibung."
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "Priority"
+msgstr "Priorität"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Permission"
+msgstr "Berechtigung"
+
+msgid "Limit"
+msgstr "Limit"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Create Page &quot;{0}&quot;"
+msgstr "Erstelle Seite &quot;{0}&quot;"
+
+msgid "Create Post &quot;{0}&quot;"
+msgstr "Erstelle Beitrag &quot;{0}&quot;"
+
+msgid "Search Plugin &quot;{0}&quot;..."
+msgstr "Suche Plugin &quot;{0}&quot;..."
+
+msgid "Show all Posts with tag &quot;{0}&quot;..."
+msgstr "Suche alle Beiträge mit Stichwort &quot;{0}&quot;..."
+
+msgid "Show all Posts with category &quot;{0}&quot;..."
+msgstr "Suche alle Beiträge mit Kategorie &quot;{0}&quot;..."
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "No Results."
+msgstr "Keine Suchergebnisse!"
+
+msgid "Extras"
+msgstr "Extras"
+
+msgid "Groups"
+msgstr "Gruppen"
+
+msgid "Extensions"
+msgstr "Erweiterungen"
+
+msgid "API for developers"
+msgstr "API für Entwickler"
+
+msgid "Congratulations, you have GG Search enabled!"
+msgstr "Herzlichen Glückwunsch, Sie haben GG Search aktiviert!"
+
+msgid ""
+"Discover the advantages of global admin search, it helps you all the "
+"elaborate search works."
+msgstr ""
+"Entdecken Sie die Vorteile einer globalen Adminsuche, es erleichtert Ihnen "
+"alle aufwendigen Sucharbeiten."
+
+msgid "First, you should config your search to your needs."
+msgstr "Zunächst sollten Sie die Suche auf Ihre Bedürfnisse anpassen."
+
+msgid ""
+"If you want to start searching, click two times the <code>G (G + G)</code> "
+"Key."
+msgstr ""
+"Wenn Sie die Suche starten wollen, klicken Sie bitte zwei mal die Taste "
+"<code>G (G + G)</code>."
+
+msgid "Extras describe a quick link to perform specific actions."
+msgstr ""
+"Benutzerdefinierte Links beschreiben einen schnellen Link zum Ausführen "
+"bestimmter Aktionen."
+
+msgid "A link is generated with the search term."
+msgstr "Dabei wird ein Link mit dem Suchbegriff generiert."
+
+msgid "So you can create, for example, quick and easy posts from search term."
+msgstr ""
+"So können beispielsweise schnell und unkompliziert Beiträge von der Suche "
+"aus erstellt werden."
+
+msgid ""
+"<code>{0}</code> in the title and the link will be replaced with the search "
+"term."
+msgstr "<code>{0}</code> im Titel und Link wird mit dem Suchbegriff ersetzt."
+
+msgid "Extras are sorted by priority."
+msgstr "Extras werden nach Priorität sortiert."
+
+msgid "Groups are sorted by priority."
+msgstr "Gruppen werden nach Priorität sortiert."
+
+msgid "Click and drag with the mouse the line to reorder the groups."
+msgstr ""
+"Klicken und bewegen Sie mit der Maus die Zeilen um die Gruppen anzuordnen."
+
+msgid ""
+"Remove the check mark in the line, which should not be incorporated in the "
+"search."
+msgstr ""
+"Entfernen Sie das Häckchen bei den Links, die nicht in die Suche "
+"mitaufgenommen werden sollen."
+
+msgid "Placeholder"
+msgstr "Platzhalter"
+
+msgid "Extension"
+msgstr "Erweiterung"
+
+msgid ""
+"Allows when clicking the button <code>.</code> (Point) to open the search."
+msgstr ""
+"Erlaubt zusätzlich beim Klick der Taste <code>[.]</code> (Punkt) das Öffnen "
+"der Suche."
+
+msgid "Enabled"
+msgstr "Aktiviert"
+
+msgid "Limit of Entries"
+msgstr "Maximale Anzahl von Einträgen"
+
+msgid ""
+"Limits the maximum number of search entries per group if it is not defined."
+msgstr ""
+"Begrenzt die maximale Anzahl an Sucheinträgen pro Gruppe, wenn diese nicht "
+"definiert ist."
+
+msgid "Search in the left admin menu"
+msgstr "Suche im linken Adminmenü"
+
+msgid "Search in Frontend"
+msgstr "Suche im Frontend"
+
+msgid "Reset to Defaults"
+msgstr "Auf Standardeinstellungen zurücksetzen"
+
+msgid "Enabled for"
+msgstr "Aktiviert für"

@@ -1,0 +1,246 @@
+.clear {
+  clear: both;
+}
+
+.wpf-umf-upload-bar,
+.wpf-umf-upload-bar-progress {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+#wpf-umf-upload-boxes {
+  margin-top: 20px;
+}
+
+#wpf-umf-upload-boxes form fieldset {
+  margin-bottom: 10px;
+}
+
+#wpf-umf-upload-boxes form fieldset legend {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+#wpf-umf-upload-boxes form fieldset legend .wpf-umf-upload-variation {
+  color: #A3A3A3;
+}
+
+#wpf-umf-upload-boxes .wpf-umf-item-product-item {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#wpf-umf-upload-boxes .wpf-umf-item-product-item-number {
+  text-align: center;
+  background: #5F5F5F;
+  color: #FFF;
+  padding: 2px;
+}
+
+/* Single upload box */
+
+.wpf-umf-single-upload {
+  border-bottom: 2px solid #dedede;
+  padding: 10px 0 20px 0;
+  color: #5F5F5F;
+}
+
+.wpf-umf-single-upload .wpf-umf-single-upload-notice {
+  margin-top: 20px;
+  font-size: 11px;
+  background: #F7F7F7;
+  padding: 2px;
+}
+
+.wpf-umf-single-upload .wpf-umf-single-upload-field {
+  margin-top: 5px;
+}
+
+.wpf-umf-single-upload:last-of-type {
+  border: 0;
+}
+
+.wpf-umf-single-upload .wpf-umf-single-upload-title {
+  font-weight: bold;
+}
+
+.wpf-umf-single-upload .wpf-umf-single-upload-description {
+  margin: 5px 0;
+  font-style: italic;
+}
+
+/* Ajax uploader */
+
+.wpf-umf-upload-bar {
+  background: #A8A8A8;
+  height: 10px;
+}
+
+.wpf-umf-upload-bar-progress {
+  height: 10px;
+  background: #9A5D8E;
+  width: 0%;
+}
+
+.wpf-umf-upload-bar-progress.upload-success {
+  background: #759749;
+}
+
+.wpf-umf-upload-bar-progress.upload-error {
+  background: #CC3B3D;
+}
+
+.wpf-umf-error-el {
+  background: #CC3B3D;
+  color: #FFF;
+  padding: 5px;
+  font-size: 12px;
+  margin-top: 20px;
+  display: none;
+}
+
+.wpf-umf-html-error {
+  display: block!important;
+  margin: 10px 0 10px 0;
+}
+
+.wpf-umf-single-upload-buttons {
+  margin-top: 20px;
+}
+
+.wpf-umf-upload-file-name {
+  float: left;
+}
+
+.wpf-umf-upload-percent {
+  float: right;
+  font-weight: bold;
+}
+
+.wpf-umf-dropzone {
+  padding: 35px 0;
+  font-size: 18px;
+  width: 100%;
+  background: #EDEDED;
+  text-align: center;
+  vertical-align: middle;
+  border: 3px dashed #A3A3A3;
+  color: #A3A3A3;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Single uploaded file */
+
+.wpf-umf-uploaded-files-container {
+  margin-top: 10px;
+}
+
+.wpf-umf-single-uploaded-file {
+  padding: 5px;
+  margin: 5px 0;
+  background: #F7F7F7;
+}
+
+.wpf-umf-single-uploaded-file .wpf-umf-suf-thumb {
+  width: 100px;
+}
+
+.wpf-umf-single-uploaded-file .wpf-umf-suf-info {
+  width: 380px;
+  margin-left: 10px;
+}
+
+.wpf-umf-single-uploaded-file .wpf-umf-suf-delete-wrapper {
+  width: 50px;
+  height: 20px;
+  padding-top: 15px;
+}
+
+.wpf-umf-single-uploaded-file .wpf-umf-suf-delete {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.wpf-umf-single-uploaded-file .wpf-umf-suf-delete-button {
+  color: #757575;
+  text-decoration: none;
+}
+
+
+.wpf-umf-single-uploaded-file .wpf-umf-suf-thumb img {
+  border: 1px solid #dedede;
+}
+
+.wpf-umf-single-uploaded-file .wpf-umf-suf-file-img {
+  background: url('../img/icon_file.png');
+  height: 46px;
+  width: 43px;
+  color: #FFF;
+  font-size: 11px;
+  padding: 20px 0 0 16px;
+  box-sizing: border-box;
+}
+
+.wpf-umf-single-uploaded-file .wpf-umf-suf-file-name {
+  font-weight: bold;
+}
+
+.wpf-umf-single-uploaded-file .wpf-umf-suf-file-status {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.wpf-umf-single-uploaded-file .wpf-umf-suf-file-status .dashicons {
+  font-size: 15px;
+}
+
+.wpf-umf-single-uploaded-file .wpf-umf-suf-file-status .dashicons-marker {
+  margin-right: 5px;
+}
+
+/* Status colors */
+
+.on-hold .wpf-umf-suf-file-status .dashicons-marker {
+  color: #FF7B0F;
+}
+
+.approved .wpf-umf-suf-file-status .dashicons-marker {
+  color: #387000;
+}
+
+.declined .wpf-umf-suf-file-status .dashicons-marker {
+  color: #E00013;
+}
+
+/* Uploading message */
+
+#wpf-umf-uploading {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #dedede;
+  font-weight: bold;
+  margin-top: 20px;
+  background: #F7F7F7;
+  display: none;
+}
+
+/* Uploads add-on */
+
+.wpf-umf-header {
+  margin: 25px 0;
+}
+
+.wpf-umf-header h2 {
+  margin: 0;
+}
+
+.wpf-umf-header.before h2 {
+  float: left;
+}
+
+
+.wpf-umf-header.before .wpf-umf-view-cart-button {
+  float: right;
+}

@@ -1,0 +1,194 @@
+/* Helpers */
+
+.wpf-umf-left {
+  float: left;
+}
+
+.wpf-umf-right {
+  float: right;
+}
+
+.wpf-mar-left-10 {
+  margin-left: 10px;
+}
+
+.wpf-mar-top-10 {
+  margin-top: 10px;
+}
+
+/* Main */
+
+#wpf-umf .postbox h3 {
+  cursor: auto;
+}
+
+#wpf-umf #wpf-umf-container-1 {
+  width: 72%;
+}
+
+#wpf-umf #wpf-umf-container-2 {
+  width: 25%;
+}
+
+#wpf-umf h2.nav-tab-wrapper {
+  padding: 0 0 0 10px;
+}
+
+/* Form */
+
+.wpf-umf-form .row {
+  padding: 15px 0;
+}
+
+.wpf-umf-form .submit-button {
+  margin-bottom: 20px;
+}
+
+#wpf-umf .wpf-umf-border-top, .wpf-umf-form .row {
+    border-top: 1px solid #eee;
+}
+
+.wpf-umf-form .row .wpf-umf-fields {
+  float: left;
+  width: 500px;
+}
+
+.wpf-umf-form .row:first-of-type {
+  border-top: 0px;
+}
+
+.wpf-umf-form .row .description {
+  background: #F9F9F9;
+  font-size: 11px;
+  padding: 5px;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.wpf-umf-form .row label.main-label {
+  display: block;
+  width: 200px;
+  font-weight: bold;
+  font-size: 14px;
+  float: left;
+  margin-bottom: 5px;
+}
+
+.wpf-umf-form .row label {
+  margin-right: 10px;
+}
+
+.wpf-umf-form .wpf-umf-editor {
+  height: 160px;
+}
+
+/* Order page, show uploaded files */
+
+.wpf-umf-ou-upload {
+  border-bottom: 2px solid #dedede;
+  padding: 10px 0;
+  font-size: 10px;
+}
+
+.wpf-umf-ou-upload:last-of-type {
+  border-bottom: 0px;
+}
+
+.wpf-umf-ou-upload .wpf-umf-ou-uploaded-download.button-small {
+  font-size: 10px;
+  height: auto;
+  line-height: 16px;
+}
+
+.wpf-umf-ou-upload .wpf-umf-ou-upload-product-variation {
+  color: #78a7ba;
+}
+
+.wpf-umf-ou-upload .wpf-umf-ou-upload-type {
+  font-weight: bold;
+}
+
+.wpf-umf-ou-upload .wpf-umf-ou-upload-product-item {
+  margin: 5px 0px;
+  padding: 2px;
+  background: #F5F5F5;
+  text-align: center;
+}
+
+.wpf-umf-ou-upload .wpf-umf-ou-upload-product-name {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0074A2;
+}
+
+.wpf-umf-ou-upload .wpf-umf-ou-uploaded-file {
+  padding: 4px;
+}
+
+.wpf-umf-ou-upload .wpf-umf-ou-uploaded-file.on-hold {
+  background: #FFF8E5;
+}
+
+.wpf-umf-ou-upload .wpf-umf-ou-uploaded-file.approved {
+  background: #EEFFC7;
+}
+
+.wpf-umf-ou-upload .wpf-umf-ou-uploaded-file.declined {
+  background: #FFEBEF;
+}
+
+#wpf-umf-ou-actions {
+  margin-top: 10px;
+}
+
+select.wpf-umf-select-small {
+  font-size: 11px;
+  height: auto;
+}
+
+/* Approve email */
+
+#wpf-umf-order-uploads-email {
+  background: #F9F9F9;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #dedede;
+}
+
+#wpf-umf-order-uploads-email h4 {
+  margin: 0;
+}
+
+#wpf-umf-order-uploads-email textarea {
+  width: 100%;
+  height: 60px;
+}
+
+.wpf-umf-order-uploads-email-message {
+  padding: 4px;
+  margin: 5px 0;
+}
+
+#wpf-umf-order-uploads-email-success {
+    background: #759749;
+    color: #FFF;
+}
+
+#wpf-umf-order-uploads-email-error {
+    background: #CC3B3D;
+    color: #FFF;
+}
+
+.wpf-plugin-links {
+  border-top: 1px solid #dedede;
+  padding-top: 10px;
+}
+
+.wpf-notice {
+  padding: 5px;
+  background: #FFF4DB;
+}
+
+/* Button */
+
+

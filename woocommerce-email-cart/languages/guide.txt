@@ -1,0 +1,3 @@
+
+Move your translation files to folder ../wp-content/languages/plugins/
+to avoid them being overwritten when you update the plugin

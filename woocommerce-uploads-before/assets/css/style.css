@@ -1,0 +1,50 @@
+#wpf-umf-upload-boxes {
+  margin-bottom: 20px;
+}
+
+
+/* Product summary */
+
+#wpf-umf-upload-for-product {
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+#wpf-umf-upload-for-product .wpf-umf-ufp-image {
+  float: left;
+  width: 120px;
+}
+
+#wpf-umf-upload-for-product .wpf-umf-ufp-info {
+  float: left;
+  margin-left: 10px;
+}
+
+#wpf-umf-upload-for-product .wpf-umf-ufp-info p {
+  margin-bottom: 5px;
+}
+
+#wpf-umf-upload-for-product .wpf-umf-ufp-info h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+/* Upload / View files button */
+
+.wpf-umf-cart-upload-button {
+  font-size: 11px!important;
+  padding: 5px!important;
+}
+
+/* Uploaded needed box */
+
+#wpf-umf-before-uploads-needed {
+  padding: 10px;
+  background: #FAE8CC;
+  border: 2px solid #F3B25B;
+  margin-bottom: 10px;
+  font-size: 12px;
+  display: none;
+}

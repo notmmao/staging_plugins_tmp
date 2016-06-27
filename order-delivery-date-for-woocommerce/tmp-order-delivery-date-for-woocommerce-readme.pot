@@ -1,0 +1,356 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Order Delivery Date for WooCommerce"
+msgstr ""
+
+#. Short description.
+msgid "Allow the customers to choose an order delivery date on the checkout page for WooCommerce store owners."
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>The Delivery date field will be visible on checkout page, according to the settings.</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>The selected delivery date will be shown in \"Custom Fields\" in Sales Log.</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>Delivery Date will be displayed on the Orders page in a new column titled \"Delivery Date\".</p>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Ability to allow the customer to select <strong>Delivery Time along with Delivery Date</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Same-day &amp; Next-day delivery</strong> with cut-off time"
+msgstr ""
+
+#. Found in description list item.
+msgid "Choose from <strong>24 different themes for the calendar</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Specify the time range available for delivery / pick up"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Add holidays or black-out dates</strong> to the calendar"
+msgstr ""
+
+#. Found in description list item.
+msgid "Option to <strong>show Delivery Date in Customer Notification Email</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Show 2 months in calendar"
+msgstr ""
+
+#. Found in description list item.
+msgid "Choose the convenient date format"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Customize field label, field note</strong> text"
+msgstr ""
+
+#. Found in description list item.
+msgid "Capture only delivery date or only delivery time or both"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin will allow the customer to choose an order delivery date on the checkout page. The customer can choose any delivery date that is after the current date. The plugin uses the inbuilt datepicker that comes with WordPress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin allows the site administrator to select delivery weekdays, specify minimum delivery time and display number of dates on calendar. The delivery date also shows in a column on WooCommerce -&gt; Orders page."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The 'Mandatory field?' setting will allow the Delivery Date field to be set as mandatory on the checkout page."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The delivery date chosen by the customer will be visible to the site administrator while viewing the order under the \"Custom Fields\" section."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin allows you to improve your customer service by delivering the order on the customer's specified date."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Pro Version:</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong><a href=\"https://www.tychesoftwares.com/store/premium-plugins/order-delivery-date-for-woocommerce-pro-21\" title=\"Order Delivery Date Pro\">Order Delivery Date Pro 4.8</a></strong> - The Pro version allows the customer to choose a delivery date &amp; time on the checkout page. Date Settings, Time Settings, Appearance &amp; Black-out dates allow the site owner to decide which dates should be made available for delivery. Following features are available in PRO version:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong><a href=\"https://www.tychesoftwares.com/store/premium-plugins/order-delivery-date-for-woocommerce-pro-21\" title=\"View Demo\">View Demo</a></strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong><a href=\"https://github.com/TycheSoftwares/woocommerce-delivery-date\" title=\"Github Repository\">Github Repository</a></strong>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Ensure you have latest version of WooCommerce plugin installed"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Unzip and upload contents of the plugin to your /wp-content/plugins/ directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Order Delivery Date calendar will appear on the checkout page of your store."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A new language \"Hebrew\" is added for the calendar. Now you can set your Delivery Calendar in the Hebrew language on the Checkout Page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "'Delivery date in the Shipping Section' setting in the Appearance tab is now renamed to 'Field placement on the Checkout page'. It will allow the Delivery Date field to be displayed in Billing Section, Shipping Section, before Order notes or after Order notes on the checkout page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The plugin is now using the jquery libraries available in WordPress core instead of the googleapis.com."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The notice \"Minimum Delivery time (in days) will now be calculated in hours which is from current WordPress time. To keep the functionality of our plugin intact at your site, we have added +24 hours to the 'Minimum Delivery time (in hours)' setting.\" is made dismissible now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A warning was displayed in the admin and on the front-end pages when the both Order Delivery Date Pro and Order Delivery Date Lite is activated together."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The update notice 'Order Delivery Date for WooCommerce Plugin needs to update your database' appears even when the plugin is re-installed. The notice should not come once the database is already updated. This is fixed now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Calendar next and previous arrows were not displayed correctly with the Galleria theme on the checkout page. This is fixed now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Delivery Date was not displayed on the invoice and packing list due to a hook being deprecated from WooCommerce Print Invoices/Packing Lists plugin. This issue is fixed now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A deprecated hook was used to add the Delivery Date value in customer notification email. This is fixed now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Calendar weekdays were overlapping in the calendar on the checkout page when the \"Number of Months\" was set to 2. This is fixed now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Delivery Dates were not translated on the Order Received page, My Account page and WooCommerce -&gt; Orders page when date language is set to Dutch-Belgian. This is fixed now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The Delivery Date field label, field placeholder text and the field note text in Order Delivery Date -&gt; Appearance can now be translated with WPML plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Until now, only admin user was able to access the Order Delivery Date settings page. From this update, users with the role 'Shop manager' will be able to access and edit the Order Delivery Date settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The calendar was not appearing on the checkout page when clicked on the Delivery Date field on the checkout page. This issue is specific to the 'Stockholm' theme. This is fixed now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The jQuery Calendar on the checkout page will now appear with a Flat Design. The CSS file for the Flat Design is used from the WP Datepicker Styling plugin on Github: https://github.com/stuttter/wp-datepicker-styling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The time sliders were not displayed on the admin product page for auction product type from the \"WooCommerce Simple Auctions\" plugin. This is fixed now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A checkbox is added on the Date settings tab to prevent the default sorting of the orders (in descending order) on the WooCommerce -&gt;Orders page when the Delivery Date field is visible. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"A new 'Appearance' tab is added on the settings page where admin will be able to\n"
+"\n"
+"<ul>\n"
+"<li>Change the label, placeholder text for the Delivery Date field on the checkout page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "To choose different language in the delivery calendar from 62 available languages. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Date format for the Delivery Date can be changed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "To set the 1st day of the week on the delivery date calendar."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Field note text can be changed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Number of months to be shown on the calendar can be selected to maximum 2."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The delivery date field can be set to shown in the Shipping section instead of always showing in the Billing section on the checkout page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Choose different theme for the delivery calendar to match with the theme of the website."
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"From this update, sorting of orders will be done based on Delivery Date on the WooCommerce-&gt; Order page.\n"
+"You will need to update the database for sorting the previous orders from the notice displayed after updating the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The Minimum Delivery time (in days) feature will now be replaced with Minimum Delivery time (in hours) Feature. When the plugin will be updated, the existing value will be multiplied with 24 hours and more 24 hours will be added to it, which will keep your setting intact."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin will have some default settings when it is installed for the first time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Order Delivery Date for WooCommerce (Lite version) is now compatible with Order Delivery Date Pro for WooCommerce plugin. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The order was placed without selecting delivery date on the checkout page even if the Delivery Date field is mandatory. This is fixed now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A new setting is being added named as 'Lockout date after X orders' which allows to block the dates for further deliveries after X number of orders."
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"The plugin is now compatible with 3rd party plugins like:\n"
+"\n"
+"<ul>\n"
+"<li>WooCommerce Zapier Integration."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WooCommerce Print Invoice &amp; Delivery Note"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WooCommerce PDF Invoices &amp; Packing Slips"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WooCommerce Customer/Order CSV Export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WooCommerce Subscriptions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WooCommerce Print Orders"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WooCommerce Print Invoice/Packing list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Delivery Date field on the checkout page has been made readonly preventing manual editing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The jQuery UI version has been updated to 1.10.4. The old version was throwing a Javascript error in some pages in the WordPress Admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The plugin fields in admin have been restructured. We are now using the WordPress Settings API for all the plugin fields in admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We have included .po, .pot and .mo files in the plugin. The plugin strings can now be translated to any language using these files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We have added a new setting 'Mandatory field?' in the admin dashboard, which will allow the Delivery Date field to be set as mandatory on the checkout page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The delivery date will be displayed on the My Account page's View Order page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The delivery date settings were getting reset for some customers, this has been fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The delivery date will be added to the email notification received by the customer on placing the order."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The delivery date is attached to the customer invoice too."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "On deactivating the plugin, all the settings were getting reset. This has been fixed. Now on deactivating the plugin, the settings will stay intact."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can set which weekdays you want the delivery service to be available."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can set the Minimum delivery time (in Days). Enter the minimum number of days it takes for you to deliver an order."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can set the number of dates to be available for the customers to choose the delivery date."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A column on the Orders page will be created where the delivery date will be displayed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Note: Please take a back up before updating this version."
+msgstr ""
+
+#. Found in faq header.
+msgid "Can the customer enter the preferred order delivery time?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is the order delivery date field mandatory on checkout page?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Currently there is no provision for entering the delivery time in the free version. This is possible in the Pro version. <a href=\"https://www.tychesoftwares.com/store/premium-plugins/order-delivery-date-for-woocommerce-pro-21\" title=\"View Demo\">View Demo</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The field can be configured as Mandatory or optional using the 'Mandatory field?' setting."
+msgstr ""

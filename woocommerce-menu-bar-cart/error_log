@@ -1,0 +1,1 @@
+[03-Mar-2016 01:34:37 UTC] PHP Fatal error:  Call to undefined function plugin_basename() in /home/mhurrell81/public_html/wp-content/plugins/woocommerce-menu-bar-cart/wp-menu-cart.php on line 22
