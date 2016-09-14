@@ -1,3 +1,4 @@
+
 <?php
 /**
  * WooCommerce Template
@@ -28,6 +29,7 @@ function wc_template_redirect() {
 
 	// When on the checkout with an empty cart, redirect to cart page
 	elseif ( is_page( wc_get_page_id( 'checkout' ) ) && WC()->cart->is_empty() && empty( $wp->query_vars['order-pay'] ) && ! isset( $wp->query_vars['order-received'] ) ) {
+		wc_add_notice( __( 'Checkout is not available whilst your cart is empty.', 'woocommerce' ), 'notice' );
 		wp_redirect( wc_get_page_permalink( 'cart' ) );
 		exit;
 	}
@@ -39,7 +41,7 @@ function wc_template_redirect() {
 	}
 
 	// Redirect to the product page if we have a single product
-	elseif ( is_search() && is_post_type_archive( 'product' ) && apply_filters( 'woocommerce_redirect_single_search_result', true ) && 1 === $wp_query->found_posts ) {
+	elseif ( is_search() && is_post_type_archive( 'product' ) && apply_filters( 'woocommerce_redirect_single_search_result', true ) && 1 === absint( $wp_query->found_posts ) ) {
 		$product = wc_get_product( $wp_query->post );
 
 		if ( $product && $product->is_visible() ) {
@@ -65,6 +67,9 @@ function wc_template_redirect() {
 		WC()->shipping();
 	}
 }
+
+
+
 add_action( 'template_redirect', 'wc_template_redirect' );
 
 /**

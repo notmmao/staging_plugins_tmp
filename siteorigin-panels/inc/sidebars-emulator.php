@@ -6,7 +6,7 @@ class SiteOrigin_Panels_Sidebars_Emulator {
 
 	function __construct() {
 		$this->all_posts_widgets = array();
-		add_action( 'init', array( $this, 'register_widgets' ), 15 );
+		add_action( 'widgets_init', array( $this, 'register_widgets' ), 99 );
 		add_filter( 'sidebars_widgets', array( $this, 'add_widgets_to_sidebars' ) );
 	}
 
@@ -35,10 +35,9 @@ class SiteOrigin_Panels_Sidebars_Emulator {
 		if ( !empty( $opt_matches ) && count( $opt_matches ) > 1 ) {
 			$opt_name = $opt_matches[1];
 			global $wp_widget_factory;
-			foreach ( $wp_widget_factory->widgets as $widget ) {
+			foreach ( $wp_widget_factory->widgets as $widget_class => $widget ) {
 				if( $widget->id_base != $opt_name ) continue;
 
-				$widget_class = get_class( $widget );
 				foreach ( $this->all_posts_widgets as $post_widgets ) {
 					foreach ( $post_widgets as $widget_instance ) {
 						if( empty($widget_instance['panels_info']['class']) ) continue;

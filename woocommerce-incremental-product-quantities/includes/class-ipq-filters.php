@@ -112,7 +112,6 @@ class IPQ_Filters {
 		if( $product->product_type != 'simple' ) {
 			return $default;
 		}
-		
 		// Get Rule
 		$rule = wpbo_get_applied_rule( $product );
 		
@@ -120,11 +119,7 @@ class IPQ_Filters {
 		$step = wpbo_get_value_from_rule( 'fixed_step', $product, $rule );
 	
 		// Return Value
-		if ( $step == '' or $step == null ) {
-			return $default;
-		} else {
 			return $step;
-		}
 	}	
 	
 	/*
